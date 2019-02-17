@@ -1,0 +1,8 @@
+[package]
+name = "objid"
+version = "0.1.0"
+authors = ["niklasr <niklasr@protonmail.com>"]
+edition = "2018"
+
+[dependencies]
+rand = "0.4"
