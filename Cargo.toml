@@ -1,8 +1,10 @@
 [package]
 name = "objid"
 version = "0.1.0"
-authors = ["niklasr <niklasr@protonmail.com>"]
+authors = ["Niklas Rosencrantz <niklasr@protonmail.com>"]
 edition = "2018"
+license = "MIT"
+description = "Generate a random object identifier."
 
 [dependencies]
 rand = "0.7"
