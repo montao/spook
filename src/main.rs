@@ -1,5 +1,3 @@
-// $Id$
-
 extern crate getopts;
 extern crate rand;
 use getopts::Options;
