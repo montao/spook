@@ -5,3 +5,4 @@ script:
 - cargo build
 - cargo test
 - cargo fmt --all -- --check
+- cargo publish --token $CARGO_TOKEN
