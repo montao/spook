@@ -10,7 +10,12 @@ fn print_usage(program: &str, opts: Options) {
 }
 
 fn print_version() {
-    let brief = format!("Version: {}", "$Id$".replace("$Id$", ""));
+    let brief = format!(
+        "Version: {}",
+        "$Id$"
+            .replace("$Id: ", "")
+            .replace(" $", "")
+    );
     print!("{}", &brief);
 }
 
@@ -26,17 +31,17 @@ fn main() {
     opts.optflag("h", "help", "print this help menu");
     opts.optflag("v", "version", "print the version id");
     opts.optflag("c", "clean", "print nothing but the objid");
-    
+
     let matches = match opts.parse(&args[1..]) {
-        Ok(m) => { m }
-        Err(f) => { panic!(f.to_string()) }
+        Ok(m) => m,
+        Err(f) => panic!(f.to_string()),
     };
-    
+
     if matches.opt_present("h") {
         print_usage(&program, opts);
         return;
     }
-    
+
     if matches.opt_present("v") {
         print_version();
         return;
@@ -51,7 +56,7 @@ fn main() {
         rng63 = rng63 / 62;
         str.push(b62digits.chars().nth(d as usize).unwrap());
     }
-    
+
     let mut text = format!("{}", "Random object id: ");
 
     if matches.opt_present("c") {
