@@ -10,6 +10,7 @@ repository = "https://github.com/montao/objid"
 readme = "README.md"
 
 [dependencies]
+getopts = "0.2"
 rand = "0.7"
 
 [badges]
