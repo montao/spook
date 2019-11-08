@@ -6,6 +6,7 @@ use rand::Rng;
 fn r(x: i64) -> i64 {
     x & (std::i64::MAX - 1)
 }
+
 fn main() {
     let b62digits = String::from("0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ");
     let mut rng = rand::thread_rng();
