@@ -1,8 +1,44 @@
+extern crate easy_reader;
 extern crate getopts;
 extern crate rand;
 use getopts::Options;
 use rand::Rng;
 use std::env;
+use std::fs::File;
+use std::io::prelude::*;
+
+
+use easy_reader::EasyReader;
+use std::{
+ //   fs::File,
+    io::{
+        self,
+        Error
+    }
+};
+
+fn spook() -> Result<(), Error> {
+    //println!("test1");
+    let file = File::open("src/spook.lines")?;
+    //println!("test1");    
+    let mut reader = EasyReader::new(file)?;
+    //println!("test1");    
+    // Generate index (optional)
+    reader.build_index();
+    //println!("test1");    
+   // loop {
+        print!("{}", reader.random_line()?.unwrap());
+        print!("{}", reader.random_line()?.unwrap());
+        print!("{}", reader.random_line()?.unwrap());
+        print!("{}", reader.random_line()?.unwrap());
+        print!("{}", reader.random_line()?.unwrap());
+ 
+
+   // }
+   Ok(())
+}
+
+
 
 fn print_usage(program: &str, opts: Options) {
     let brief = format!("Usage: {}", program);
@@ -57,11 +93,14 @@ fn main() {
         str.push(b62digits.chars().nth(d as usize).unwrap());
     }
 
-    let mut text = format!("{}", "Random object id: ");
+    //let mut text = format!("{}", "Random object id: ");
 
     if matches.opt_present("c") {
-        text = format!("{}", "");
+        //text = format!("{}", "");
     }
 
-    println!("{}{}", text, str);
+    //println!("{}{}", text, str);
+    //let out = 
+    spook();
+    //println!("{}", out);
 }
