@@ -1,9 +1,9 @@
 # spook
 
-[![Crates.io](https://img.shields.io/crates/v/spook.svg)](https://crates.io/crates/spook) [![Build Status](https://travis-ci.org/montao/spook.svg?branch=master)](https://travis-ci.org/montao/spook)  
+[![Crates.io](https://img.shields.io/crates/v/spooky.svg)](https://crates.io/crates/spooky) [![Build Status](https://travis-ci.com/montao/spook.svg?branch=master)](https://travis-ci.com/montao/spook)  
 
 
-Spook in Rust via HTTP
+Spook(y) in Rust via HTTP. It was originaly the Spook amusement for Emacs. 
 
 * [Installation](#installation)
 * [Commands](#commands)
