@@ -1,12 +1,12 @@
 [package]
-name = "objid"
-version = "0.1.4"
+name = "spook"
+version = "0.0.0"
 authors = ["Niklas Rosencrantz <niklasr@protonmail.com>"]
 edition = "2018"
 license = "MIT"
-description = "Generate a random object identifier."
+description = "Spook in Rust via HTTP."
 keywords = ["random"]
-repository = "https://github.com/montao/objid"
+repository = "https://github.com/montao/spook"
 readme = "README.md"
 
 [dependencies]
@@ -15,4 +15,4 @@ rand = "0.7"
 
 [badges]
 maintenance = { status = "actively-developed" }
-travis-ci = { repository = "montao/objid" }
+travis-ci = { repository = "montao/spook" }
