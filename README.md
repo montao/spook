@@ -1,32 +1,30 @@
-# objid
+# spook
 
-[![Crates.io](https://img.shields.io/crates/v/objid.svg)](https://crates.io/crates/objid) [![Build Status](https://travis-ci.org/montao/objid.svg?branch=master)](https://travis-ci.org/montao/objid)  
+[![Crates.io](https://img.shields.io/crates/v/spook.svg)](https://crates.io/crates/spook) [![Build Status](https://travis-ci.org/montao/spook.svg?branch=master)](https://travis-ci.org/montao/spook)  
 
 
-The random Rust object identifier.
-
-This program generates a random id suitable for code generators. 
+Spook in Rust via HTTP
 
 * [Installation](#installation)
 * [Commands](#commands)
 
 ## Installation
 
-You can install `objid` from either this repository, or from Crates (once it's published):
+You can install `spook` from either this repository, or from Crates (once it's published):
 
 ```shell
 # install from Cargo
-$ cargo install objid
+$ cargo install spook
 
 # install the latest from GitHub
-$ cargo install --git https://github.com/montao/objid.git
+$ cargo install --git https://github.com/montao/spook.git
 ```
 
 ## Commands
 
-Running the program generates a new object identifier like the following. 
+Running the program generates a new spooking object like the following. 
 
 ```shell
-$ objid
-Random object id: _e4lzU1OgCT
+$ spook
+Alliance of Eritrean National Force Alliance pour la resistance democratique Allied Democratic Forces American American Airlines Amn Araissi Arab Revolutionary Brigades Arab Revolutionary Council 
 ```
