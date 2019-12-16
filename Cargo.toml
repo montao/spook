@@ -1,5 +1,5 @@
 [package]
-name = "spook"
+name = "spooks"
 version = "0.0.0"
 authors = ["Niklas Rosencrantz <niklasr@protonmail.com>"]
 edition = "2018"
