@@ -10,11 +10,11 @@ Spook(y) in Rust (todo:) via HTTP. It was originaly the Spook amusement for Emac
 
 ## Installation
 
-You can install `spook` from either this repository, or from Crates (once it's published):
+You can install `spooks` from either this repository, or from Crates (once it's published):
 
 ```shell
 # install from Cargo
-$ cargo install spook
+$ cargo install spooks
 
 # install the latest from GitHub
 $ cargo install --git https://github.com/montao/spook.git
@@ -22,9 +22,11 @@ $ cargo install --git https://github.com/montao/spook.git
 
 ## Commands
 
+You must use a file named "src/spooks.lines" (this requirement will be relaxed in the near future). 
+
 Running the program generates a new spooking object like the following. 
 
 ```shell
-$ spook
-Alliance of Eritrean National Force Alliance pour la resistance democratique Allied Democratic Forces American American Airlines Amn Araissi Arab Revolutionary Brigades Arab Revolutionary Council 
+$ spooks
+Manuel Rodriguez assault Uzi efnet Legion of Doom
 ```
