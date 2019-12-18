@@ -1,26 +1,18 @@
 extern crate easy_reader;
 extern crate getopts;
 extern crate rand;
-use getopts::Options;
+
 use std::env;
-use std::fs::File;
-use std::io::BufReader;
-use std::io::{Cursor, Read, Seek, SeekFrom, Write};
+use std::io::{Cursor, Error, Seek, SeekFrom, Write};
+
 use easy_reader::EasyReader;
-use std::{
-    io::{
-        Error
-    }
-};
+use getopts::Options;
 
 fn spook() -> Result<(), Error> {
-    //let file = File::open("src/spook.lines")?;
-
+    
     // Create fake "file"
     let mut c = Cursor::new(Vec::new());
-
     let str42 = include_str!("spook.lines").as_bytes();
-    //let mut reader = BufReader::new(&vertices_bytes);
 
     // Write into the "file" and seek to the beginning
     c.write_all(str42).unwrap();
@@ -32,7 +24,7 @@ fn spook() -> Result<(), Error> {
     print!("{}", reader.random_line()?.unwrap());
     print!("{}", reader.random_line()?.unwrap());
     print!("{}", reader.random_line()?.unwrap());
-    print!("{}", reader.random_line()?.unwrap());
+    println!("{}", reader.random_line()?.unwrap());
     Ok(())
 }
 
