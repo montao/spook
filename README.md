@@ -3,7 +3,7 @@
 [![Crates.io](https://img.shields.io/crates/v/spooky.svg)](https://crates.io/crates/spooky) [![Build Status](https://travis-ci.com/montao/spook.svg?branch=master)](https://travis-ci.com/montao/spook)  
 
 
-Spook(y) in Rust (todo:) via HTTP. It was originaly the Spook amusement for Emacs. 
+Spook(y) in Rust (todo:) via HTTP. It was originally the Spook amusement for Emacs. 
 
 * [Installation](#installation)
 * [Commands](#commands)
@@ -22,7 +22,7 @@ $ cargo install --git https://github.com/montao/spook.git
 
 ## Commands
 
-You must use a file named "src/spooks.lines" (this requirement will be relaxed in the near future). 
+You must use a file in the current directory named "src/spooks.lines" (this requirement will be relaxed in the near future when I can learn how to include such as asset/resource). 
 
 Running the program generates a new spooking object like the following. 
 
