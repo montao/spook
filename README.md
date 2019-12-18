@@ -26,9 +26,7 @@ $ cargo install --git https://github.com/montao/spook.git
 
 ## Commands
 
-You must use a file in the current directory named "src/spooks.lines" (this requirement will be relaxed in the near future when I can learn how to include such as asset/resource). 
-
-Running the program generates a new spooking object like the following. 
+Running the program generates a new spooking object for example the following. 
 
 ```shell
 $ spooks
