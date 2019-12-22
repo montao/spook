@@ -3,11 +3,12 @@
 [![Crates.io](https://img.shields.io/crates/v/spooky.svg)](https://crates.io/crates/spooks) [![Build Status](https://travis-ci.com/montao/spook.svg?branch=master)](https://travis-ci.com/montao/spook)  
 
 
-Spook(y) in Rust (todo:) via HTTP. It was originally the Spook amusement for Emacs. 
+Spook in Rust and via HTTP. It was originally the Spook amusement for Emacs. 
 
 * [Run](#Run)
 * [Installation](#installation)
 * [Commands](#commands)
+* [Web](#web)
 
 ## Run
 `docker run -it rust bash -c "cargo install spooks;spooks"`
@@ -32,3 +33,5 @@ Running the program generates a new spooking object for example the following.
 $ spooks
 Manuel Rodriguez assault Uzi efnet Legion of Doom
 ```
+## Web
+https://montao.github.io/spooks-web/
