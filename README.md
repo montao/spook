@@ -1,4 +1,4 @@
-# spook
+# spook(s)
 
 [![Crates.io](https://img.shields.io/crates/v/spooks.svg)](https://crates.io/crates/spooks) [![Build Status](https://travis-ci.com/montao/spooks.svg?branch=master)](https://travis-ci.com/montao/spooks)  
 
@@ -22,7 +22,7 @@ You can install `spooks` from either this repository, or from Crates (once it's 
 $ cargo install spooks
 
 # install the latest from GitHub
-$ cargo install --git https://github.com/montao/spook.git
+$ cargo install --git https://github.com/montao/spooks.git
 ```
 
 ## Commands
