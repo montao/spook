@@ -1,6 +1,6 @@
 # spook
 
-[![Crates.io](https://img.shields.io/crates/v/spooky.svg)](https://crates.io/crates/spooks) [![Build Status](https://travis-ci.com/montao/spook.svg?branch=master)](https://travis-ci.com/montao/spook)  
+[![Crates.io](https://img.shields.io/crates/v/spooks.svg)](https://crates.io/crates/spooks) [![Build Status](https://travis-ci.com/montao/spooks.svg?branch=master)](https://travis-ci.com/montao/spooks)  
 
 
 Spook in Rust and via HTTP. It was originally the Spook amusement for Emacs. 
