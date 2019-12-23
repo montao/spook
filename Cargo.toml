@@ -1,12 +1,12 @@
 [package]
 name = "spooks"
-version = "0.2.1"
+version = "0.2.2"
 authors = ["Niklas Rosencrantz <niklasr@protonmail.com>"]
 edition = "2018"
 license = "MIT"
-description = "Spook in Rust via HTTP."
+description = "Spook in Rust."
 keywords = ["random"]
-repository = "https://github.com/montao/spook"
+repository = "https://github.com/montao/spooks"
 readme = "README.md"
 
 [dependencies]
@@ -16,4 +16,4 @@ easy_reader = "0.5.0"
 
 [badges]
 maintenance = { status = "actively-developed" }
-travis-ci = { repository = "montao/spook" }
+travis-ci = { repository = "montao/spooks" }
