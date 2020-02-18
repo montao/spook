@@ -3,7 +3,7 @@
 [![Crates.io](https://img.shields.io/crates/v/spooks.svg)](https://crates.io/crates/spooks) [![Build Status](https://travis-ci.com/montao/spooks.svg?branch=master)](https://travis-ci.com/montao/spooks)  
 
 
-Spook in Rust and via HTTP. It was originally the Spook amusement for Emacs. 
+Spook in Rust or via HTTP. It was originally the spook functionality from GNU/Emacs. 
 
 * [Run](#Run)
 * [Installation](#installation)
@@ -11,7 +11,7 @@ Spook in Rust and via HTTP. It was originally the Spook amusement for Emacs.
 * [Web](#web)
 
 ## Run
-`docker run -it rust bash -c "cargo install spooks;spooks"`
+`docker run montao/spooks"`
 
 ## Installation
 
