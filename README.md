@@ -11,7 +11,7 @@ Spook in Rust or via HTTP. It was originally the spook functionality from GNU/Em
 * [Web](#web)
 
 ## Run
-`docker run montao/spooks"`
+`docker run montao/spooks`
 
 ## Installation
 
