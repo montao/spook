@@ -20,6 +20,9 @@ fn spook() -> Result<(), Error> {
 
     let mut reader = EasyReader::new(c)?;
     let _res = reader.build_index();
+
+    // TODO: Parametrize number of words so that you can choose number of words
+    // TODO: Choose format of output (JSON, XML...)
     print!("{}", reader.random_line()?.unwrap());
     print!("{}", reader.random_line()?.unwrap());
     print!("{}", reader.random_line()?.unwrap());
